@@ -1,0 +1,53 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.bak
+*.tmp
+*.old
+.vscode/
+.idea/
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+*.pyd
+.env
+.venv/
+venv/
+.envrc
+.ipynb_checkpoints/
+
+# MATLAB/Simulink
+*.asv
+*.m~
+*.mat
+*.mex*
+*.fig
+*.slxc
+*.slx.r20*
+
+# Logs, models, and experiment outputs
+*.tfevents.*
+*.npz
+*.npy
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.zip
+
+# Generated data/plots
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Project-specific runs/logs
+Cart-Pole System/Lab3/rl_logs/
+Cart-Pole System/Lab3/ppo_pendulum_tensorboard/
+Cart-Pole System/Lab3/runs_v2/
+Cart-Pole System/Lab3/runs_v3/
