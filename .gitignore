@@ -38,13 +38,8 @@ venv/
 *.h5
 *.zip
 
-# Generated data/plots
-*.csv
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
+# Data/plots
+# Keep curated figures and small datasets tracked; ignore only large experiment artifacts via patterns above and folders below.
 
 # Project-specific runs/logs
 Cart-Pole System/Lab3/rl_logs/
